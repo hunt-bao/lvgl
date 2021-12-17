@@ -18,7 +18,7 @@ class CounterBtn():
         code = evt.get_code()
         btn = evt.get_target()
         if code == lv.EVENT.CLICKED:
-            self.cnt += 1
+            self.cnt += 2
 
         # Get the first child of the button which is the label and change its text
         label = btn.get_child(0)
